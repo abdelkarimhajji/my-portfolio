@@ -206,19 +206,19 @@ for (let i = 0; i < projectItem.length; i++) {
     }
   });
 }
-// function handleClick(event) {
-//   console.log(event.target.className);
-//   let classes = ["containerDetails", "container-image", "container-all", "container-desc"
-//   , "desc", "container-languages", "language", "container-links", "link-website", "link", "hydrated", "project-item-icon-box", "project-img","span", "md"]
+function handleClick(event) {
+  console.log(event.target.className);
+  let classes = ["containerDetails", "container-image", "container-all", "container-desc"
+  , "desc", "container-languages", "language", "container-links", "link-website", "link", "hydrated", "project-item-icon-box", "project-img","span", "md"]
 
-//   if(!classes.includes(event.target.className))
-//   {
-//     removeClassDeatils();
-//     removeClass();
-//   }
+  if(!classes.includes(event.target.className))
+  {
+    removeClassDeatils();
+    removeClass();
+  }
   
-// }
+}
 
-// // Attach the function to the click event of the window
-// window.addEventListener('click', handleClick);
+// Attach the function to the click event of the window
+window.addEventListener('click', handleClick);
 

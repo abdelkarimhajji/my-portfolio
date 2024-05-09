@@ -1351,6 +1351,7 @@ textarea.form-input::-webkit-resizer { display: none; }
   #RESPONSIVE
 \*-----------------------------------*/
 
+
 /**
  * responsive larger than 450px screen
  */
@@ -1768,8 +1769,8 @@ textarea.form-input::-webkit-resizer { display: none; }
    *  PORTFOLIO
    */
    .expand{
-    grid-column: 1/2;
-    grid-row: 1/2;
+    grid-column:span 1;
+    grid-row: span 1  ;
     /* transition: width 2s, height 2s; */
     transform: scale(1.5);
     background-color:#333333;
