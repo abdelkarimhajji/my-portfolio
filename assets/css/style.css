@@ -1999,10 +1999,13 @@ textarea.form-input::-webkit-resizer { display: none; }
 
   .contact-info :is(.contact-link) {
     white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
+    overflow-x: scroll;
+    /* text-overflow: ellipsis; */
   }
-
+  .contact-link::-webkit-scrollbar
+  {
+    width: 0;
+  }
   .contact-info :is(.contact-link, time, address) {
     --fs-7: 14px;
     font-weight: var(--fw-300);
