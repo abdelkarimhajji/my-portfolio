@@ -335,7 +335,10 @@ main {
   background: var(--bg-gradient-onyx);
   border-radius: 20px;
 }
-
+.avatar-box img
+{
+  border-radius: 20px;
+}
 .info-content .name {
   color: var(--white-2);
   font-size: var(--fs-3);
@@ -426,7 +429,13 @@ main {
   color: var(--white-2);
   font-size: var(--fs-7);
 }
-
+.contact-link
+{
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    word-break: break-word;
+    text-align: justify;
+}
 .contact-info address { font-style: normal; }
 
 .social-list {
@@ -1998,8 +2007,8 @@ textarea.form-input::-webkit-resizer { display: none; }
   .contacts-list { grid-template-columns: 1fr; }
 
   .contact-info :is(.contact-link) {
-    white-space: nowrap;
-    overflow-x: scroll;
+    /* white-space: nowrap; */
+    /* overflow-x: scroll; */
     /* text-overflow: ellipsis; */
   }
   .contact-link::-webkit-scrollbar
