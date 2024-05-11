@@ -184,8 +184,9 @@ function removeClassDeatils()
   removeClass();
 }
 for (let i = 0; i < projectItem.length; i++) {
+
   projectItem[i].addEventListener("click", function () {
-    if(!projectItem[i].classList.contains("expand")) {
+    if(!projectItem[i].classList.contains("expand") && i != projectItem.length - 1){
     
       removeStyle();
       removeClass();
