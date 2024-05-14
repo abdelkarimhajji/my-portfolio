@@ -220,6 +220,29 @@ function handleClick(event) {
   
 }
 
-// Attach the function to the click event of the window
 window.addEventListener('click', handleClick);
+
+let cursure = document.getElementById("cursore");
+let jsHover = document.getElementsByClassName("jsHover");
+document.querySelector('html').addEventListener('mousemove', function(e) {
+  var x = e.pageX - about.offsetLeft+25;
+  var y = e.pageY - about.offsetTop -0;
+  cursure.style.left = x + "px";
+  cursure.style.top = y + "px";
+  console.log('Mouse position: ', x, y);
+});
+let isCursorInWindow = false;
+window.addEventListener('mousemove', function() {
+  isCursorInWindow = true;
+  cursure.style.display = "block";
+});
+
+window.addEventListener('mouseout', function() {
+  isCursorInWindow = false;
+});
+setInterval(function() {
+  if (!isCursorInWindow) {
+    cursure.style.display = "none";
+  }
+}, 1000);
 
