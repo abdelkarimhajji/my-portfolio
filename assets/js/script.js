@@ -208,9 +208,16 @@ for (let i = 0; i < projectItem.length; i++) {
   });
 }
 function handleClick(event) {
-  console.log(event.target.className);
-  let classes = ["containerDetails", "container-image", "container-all", "container-desc"
-  , "desc", "container-languages", "language", "container-links", "link-website", "link", "hydrated", "project-item-icon-box", "project-img","span", "md"]
+  // console.log("calses ; ",event.target.className);
+  console.log("Parent class: ",event.target.parentNode.className+"/")
+  let classes = ["project-item", "project-img","project-item-icon-box"
+  ,"myImg", "allElements", "hydrated", "navbar-item", "containerDetails",
+  "container-desc","container-image","containerTitle",
+  "container-all","desc","container-badges","container-links","myspan",
+  "myTitles"
+
+
+  ]
 
   if(!classes.includes(event.target.className))
   {
@@ -229,7 +236,7 @@ document.querySelector('html').addEventListener('mousemove', function(e) {
   var y = e.pageY - about.offsetTop -0;
   cursure.style.left = x + "px";
   cursure.style.top = y + "px";
-  console.log('Mouse position: ', x, y);
+  // console.log('Mouse position: ', x, y);
 });
 let isCursorInWindow = false;
 window.addEventListener('mousemove', function() {

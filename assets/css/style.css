@@ -1153,7 +1153,7 @@ main {
   display: flex;
   width: 100%;
   min-height: 40px;
-  margin-bottom: 25px;
+  margin-bottom: 35px;
   justify-content: space-evenly;
   flex-wrap: wrap;
   gap:20px;
@@ -1192,7 +1192,7 @@ main {
   width: 100%;
   margin-bottom: 50px;
   display: flex;
-  flex-direction: column;
+  justify-content: space-evenly;
 }
 .containerDetails .container-links:first-child
 {
@@ -1210,8 +1210,32 @@ main {
 .containerDetails .container-links .span:hover
 {
   color: #006699;
+  
 }
-
+.containerDetails .container-links .link-website   button
+{
+  background-color:#1e1e1f75;
+  box-sizing: border-box;
+  width: 7em;
+  height: 2.5em;
+  border-radius: 5px;
+  border: 1px solid white;
+  color: white;
+  text-align: center;
+  transition: 0.5s all;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  font-size: 1em;
+}
+.containerDetails .container-links .link-website   button img
+{
+  width: 1em;
+}
+.containerDetails .container-links .link-website   button:hover
+{
+  background-color:#1e1e1f;
+}
 /*-----------------------------------*\
   #BLOG
 \*-----------------------------------*/
@@ -1404,9 +1428,44 @@ textarea.form-input::-webkit-resizer { display: none; }
 .form-btn:disabled:hover::before { background: var(--bg-gradient-jet); }
 
 
-
-
-
+.container-skills p
+{
+  color: white;
+  font-size: var(--fs-2);
+  text-transform: capitalize;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+.skills
+{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  margin-bottom: 10px;
+  /* background-color: red; */
+}
+.eachSkill
+{
+  box-sizing: border-box;
+  padding: 10px 20px;
+  background-color: #232323;
+  /* border: 1px solid rgba(255, 255, 255, 0.409); */
+  cursor: pointer;
+  text-align: center;
+  border-radius: 7px;
+  color: #fdd96f;
+  transition: 0.5s all;
+  box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+.eachSkill:hover
+{
+  background-color: #1e1e1f;
+}
+@media (max-width: 735px) {
+  .skills {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
 /*-----------------------------------*\
   #RESPONSIVE
 \*-----------------------------------*/
@@ -2095,6 +2154,21 @@ textarea.form-input::-webkit-resizer { display: none; }
   {
     padding-left: 20px;
     padding-right: 20px;
+  }
+  .containerDetails .container-links
+  {
+    display: flex ;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .containerDetails .container-links .link-website:first-child
+  {
+      margin-bottom: 10px;
+  }
+  .containerDetails .container-links .link-website button
+  {
+    width: 10em;
   }
 }
 @media (max-width:453px)

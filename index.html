@@ -6,43 +6,24 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>vCard - Personal Portfolio</title>
-
-  <!--
-    - favicon
-  -->
   <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
-
-  <!--
-    - custom css link
-  -->
   <link rel="stylesheet" href="./assets/css/style.css">
-
-  <!--
-    - google font link
-  -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 </head>
 
 <body>
-
-  <!--
-    - #MAIN
-  -->
   <div id="cursore"></div>
   <main>
 
-    <!--
-      - #SIDEBAR
-    -->
-    
     <aside class="sidebar" data-sidebar>
 
       <div class="sidebar-info">
 
         <figure class="avatar-box">
-          <img src="./assets/images/me.jpg" alt="Richard hanrick" width="80">
+          <img class="myImg" src="./assets/images/me.jpg" alt="Richard hanrick" width="80">
         </figure>
 
         <div class="info-content">
@@ -125,28 +106,6 @@
 
         <div class="separator"></div>
 
-        <ul class="social-list">
-
-          <li class="social-item">
-            <a href="#" class="social-link">
-              <ion-icon name="logo-facebook"></ion-icon>
-            </a>
-          </li>
-
-          <li class="social-item">
-            <a href="#" class="social-link">
-              <ion-icon name="logo-twitter"></ion-icon>
-            </a>
-          </li>
-
-          <li class="social-item">
-            <a href="#" class="social-link">
-              <ion-icon name="logo-instagram"></ion-icon>
-            </a>
-          </li>
-
-        </ul>
-
       </div>
 
     </aside>
@@ -209,17 +168,24 @@
 
         <section class="about-text">
           <p>
-            I'm Creative Director and UI/UX Designer from Sydney, Australia, working in web development and print media.
-            I enjoy
-            turning complex problems into simple, beautiful and intuitive designs.
+            Skilled in database management with expertise in MySQL
+            and SQL, I specialize in designing and optimizing databases
+            to power diverse applications. Proficient in both front-end and
+            back-end development, I leverage JavaScript, HTML, CSS, Bootstrap, 
+            jQuery, and AJAX to create dynamic, responsive interfaces.
           </p>
 
           <p>
-            My job is to build your website so that it is functional and user-friendly but at the same time attractive.
-            Moreover, I
-            add personal touch to your product and make sure that is eye-catching and easy to use. My aim is to bring
-            across your
-            message and identity in the most creative way. I created web design for many famous brand companies.
+            On the server side, I excel in PHP, Node.js, and Express, crafting 
+            robust applications that seamlessly interact with databases. From 
+            designing efficient schemas to writing complex queries, I ensure optimal 
+            performance and scalability for every project.
+          </p>
+
+          <p>
+            With a focus on delivering reliable, scalable solutions 
+            tailored to clients' needs, I bring a passion for innovation 
+            and problem-solving to every development endeavor.
           </p>
         </section>
 
@@ -233,23 +199,6 @@
           <h3 class="h3 service-title">What i'm doing</h3>
 
           <ul class="service-list">
-
-            <li class="service-item">
-
-              <div class="service-icon-box">
-                <img src="./assets/images/icon-design.svg
-                " alt="design icon" width="40">
-              </div>
-
-              <div class="service-content-box">
-                <h4 class="h4 service-item-title">Web design</h4>
-
-                <p class="service-item-text">
-                  The most modern and high-quality design made at a professional level.
-                </p>
-              </div>
-
-            </li>
 
             <li class="service-item">
 
@@ -277,23 +226,7 @@
                 <h4 class="h4 service-item-title">Mobile apps</h4>
 
                 <p class="service-item-text">
-                  Professional development of applications for iOS and Android.
-                </p>
-              </div>
-
-            </li>
-
-            <li class="service-item">
-
-              <div class="service-icon-box">
-                <img src="./assets/images/icon-photo.svg" alt="camera icon" width="40">
-              </div>
-
-              <div class="service-content-box">
-                <h4 class="h4 service-item-title">Photography</h4>
-
-                <p class="service-item-text">
-                  I make high-quality photos of any category at a professional level.
+                  Development of applications for iOS and Android.
                 </p>
               </div>
 
@@ -302,110 +235,6 @@
           </ul>
 
         </section>
-
-
-        <!--
-          - testimonials
-        -->
-
-        <section class="testimonials">
-
-          <h3 class="h3 testimonials-title">Testimonials</h3>
-
-          <ul class="testimonials-list has-scrollbar">
-
-            <li class="testimonials-item">
-              <div class="content-card" data-testimonials-item>
-
-                <figure class="testimonials-avatar-box">
-                  <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="60" data-testimonials-avatar>
-                </figure>
-
-                <h4 class="h4 testimonials-item-title" data-testimonials-title>Daniel lewis</h4>
-
-                <div class="testimonials-text" data-testimonials-text>
-                  <p>
-                    Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
-                    lot of experience
-                    and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
-                    consectetur adipiscing
-                    elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
-                  </p>
-                </div>
-
-              </div>
-            </li>
-
-            <li class="testimonials-item">
-              <div class="content-card" data-testimonials-item>
-
-                <figure class="testimonials-avatar-box">
-                  <img src="./assets/images/avatar-2.png" alt="Jessica miller" width="60" data-testimonials-avatar>
-                </figure>
-
-                <h4 class="h4 testimonials-item-title" data-testimonials-title>Jessica miller</h4>
-
-                <div class="testimonials-text" data-testimonials-text>
-                  <p>
-                    Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
-                    lot of experience
-                    and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
-                    consectetur adipiscing
-                    elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
-                  </p>
-                </div>
-
-              </div>
-            </li>
-
-            <li class="testimonials-item">
-              <div class="content-card" data-testimonials-item>
-
-                <figure class="testimonials-avatar-box">
-                  <img src="./assets/images/avatar-3.png" alt="Emily evans" width="60" data-testimonials-avatar>
-                </figure>
-
-                <h4 class="h4 testimonials-item-title" data-testimonials-title>Emily evans</h4>
-
-                <div class="testimonials-text" data-testimonials-text>
-                  <p>
-                    Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
-                    lot of experience
-                    and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
-                    consectetur adipiscing
-                    elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
-                  </p>
-                </div>
-
-              </div>
-            </li>
-
-            <li class="testimonials-item">
-              <div class="content-card" data-testimonials-item>
-
-                <figure class="testimonials-avatar-box">
-                  <img src="./assets/images/avatar-4.png" alt="Henry william" width="60" data-testimonials-avatar>
-                </figure>
-
-                <h4 class="h4 testimonials-item-title" data-testimonials-title>Henry william</h4>
-
-                <div class="testimonials-text" data-testimonials-text>
-                  <p>
-                    Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
-                    lot of experience
-                    and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
-                    consectetur adipiscing
-                    elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
-                  </p>
-                </div>
-
-              </div>
-            </li>
-
-          </ul>
-
-        </section>
-
 
         <!--
           - testimonials modal
@@ -416,95 +245,37 @@
           <div class="overlay" data-overlay></div>
 
           <section class="testimonials-modal">
-
             <button class="modal-close-btn" data-modal-close-btn>
               <ion-icon name="close-outline"></ion-icon>
             </button>
-
-            <div class="modal-img-wrapper">
-              <figure class="modal-avatar-box">
-                <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="80" data-modal-img>
-              </figure>
-
-              <img src="./assets/images/icon-quote.svg" alt="quote icon">
-            </div>
-
-            <div class="modal-content">
-
-              <h4 class="h3 modal-title" data-modal-title>Daniel lewis</h4>
-
-              <time datetime="2021-06-14">14 June, 2021</time>
-
-              <div data-modal-text>
-                <p>
-                  Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
-                  lot of experience
-                  and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
-                  consectetur adipiscing
-                  elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
-                </p>
-              </div>
-
-            </div>
-
           </section>
 
         </div>
-
-
-        <!--
-          - clients
-        -->
-
-        <section class="clients">
-
-          <h3 class="h3 clients-title">Clients</h3>
-
-          <ul class="clients-list has-scrollbar">
-
-            <li class="clients-item">
-              <a href="#">
-                <img src="./assets/images/logo-1-color.png" alt="client logo">
-              </a>
-            </li>
-
-            <li class="clients-item">
-              <a href="#">
-                <img src="./assets/images/logo-2-color.png" alt="client logo">
-              </a>
-            </li>
-
-            <li class="clients-item">
-              <a href="#">
-                <img src="./assets/images/logo-3-color.png" alt="client logo">
-              </a>
-            </li>
-
-            <li class="clients-item">
-              <a href="#">
-                <img src="./assets/images/logo-4-color.png" alt="client logo">
-              </a>
-            </li>
-
-            <li class="clients-item">
-              <a href="#">
-                <img src="./assets/images/logo-5-color.png" alt="client logo">
-              </a>
-            </li>
-
-            <li class="clients-item">
-              <a href="#">
-                <img src="./assets/images/logo-6-color.png" alt="client logo">
-              </a>
-            </li>
-
-          </ul>
-
-        </section>
-
+        <div class="container-skills">
+          <p>My Skills</p>
+          <div class="skills">
+            <div class="eachSkill">HTML</div>
+            <div class="eachSkill">CSS</div>
+            <div class="eachSkill">JS</div>
+            <div class="eachSkill">BOOSTRAP</div>
+            <div class="eachSkill">AJAX</div>
+            <div class="eachSkill">JQUERY</div>
+            <div class="eachSkill">REACT</div>
+            <div class="eachSkill">REACT NATIVE</div>    
+            <div class="eachSkill">NODE JS</div>
+            <div class="eachSkill">EXPRESS</div>
+            <div class="eachSkill">PHP</div>
+            <div class="eachSkill">MySQL</div>
+            <div class="eachSkill">SQL</div>
+            <div class="eachSkill">C</div>
+            <div class="eachSkill">CPP</div>
+            <div class="eachSkill">JAVA</div> 
+            <div class="eachSkill">C#</div>  
+            <div class="eachSkill">SHELL SCRIPT</div>         
+           </div>
+        </div>
+  
       </article>
-
-
 
 
 
@@ -532,41 +303,43 @@
 
             <li class="timeline-item">
 
-              <h4 class="h4 timeline-item-title">University school of the arts</h4>
+              <h4 class="h4 timeline-item-title">Miage School</h4>
 
-              <span>2007 — 2008</span>
+              <span>2020 — 2022</span>
 
               <p class="timeline-text">
-                Nemo enims ipsam voluptatem, blanditiis praesentium voluptum delenit atque corrupti, quos dolores et
-                quas molestias
-                exceptur.
+                During my time at Miage School of Web Development, I completed a specialized 
+                technician diploma. This comprehensive program equipped me with 
+                practical skills and knowledge essential for excelling in the
+                web development industry.
               </p>
 
             </li>
 
             <li class="timeline-item">
 
-              <h4 class="h4 timeline-item-title">New york academy of art</h4>
+              <h4 class="h4 timeline-item-title">Solicode Center</h4>
 
-              <span>2006 — 2007</span>
+              <span>2021 — 2022</span>
 
               <p class="timeline-text">
-                Ratione voluptatem sequi nesciunt, facere quisquams facere menda ossimus, omnis voluptas assumenda est
-                omnis..
+                At Solicode Center, I deepened my understanding of full-stack web 
+                development. I earned certificates from Simplon, both online and offline, 
+                further enhancing my expertise in the field.
               </p>
 
             </li>
 
             <li class="timeline-item">
 
-              <h4 class="h4 timeline-item-title">High school of art and design</h4>
+              <h4 class="h4 timeline-item-title">1337 - 42Network</h4>
 
-              <span>2002 — 2004</span>
+              <span>2022 — 2024</span>
 
               <p class="timeline-text">
-                Duis aute irure dolor in reprehenderit in voluptate, quila voluptas mag odit aut fugit, sed consequuntur
-                magni dolores
-                eos.
+                Currently, I'm enrolled at 1337 - 42Network, where 
+                I'm continuing to expand my 
+                skills and knowledge in software development.
               </p>
 
             </li>
@@ -589,42 +362,31 @@
 
             <li class="timeline-item">
 
-              <h4 class="h4 timeline-item-title">Creative director</h4>
+              <h4 class="h4 timeline-item-title">Cafe Nora Website Project</h4>
 
-              <span>2015 — Present</span>
+              <span>2021</span>
 
               <p class="timeline-text">
-                Nemo enim ipsam voluptatem blanditiis praesentium voluptum delenit atque corrupti, quos dolores et qvuas
-                molestias
-                exceptur.
+                As a freelance web developer, 
+                I've been actively involved in the Cafe Nora website project.
+                My responsibilities include designing and implementing creative
+                solutions to enhance user experience and showcase the cafe's 
+                offerings.
               </p>
 
             </li>
 
             <li class="timeline-item">
 
-              <h4 class="h4 timeline-item-title">Art director</h4>
+              <h4 class="h4 timeline-item-title">Club Mediterranee Website Project</h4>
 
-              <span>2013 — 2015</span>
-
-              <p class="timeline-text">
-                Nemo enims ipsam voluptatem, blanditiis praesentium voluptum delenit atque corrupti, quos dolores et
-                quas molestias
-                exceptur.
-              </p>
-
-            </li>
-
-            <li class="timeline-item">
-
-              <h4 class="h4 timeline-item-title">Web designer</h4>
-
-              <span>2010 — 2013</span>
+              <span>2024</span>
 
               <p class="timeline-text">
-                Nemo enims ipsam voluptatem, blanditiis praesentium voluptum delenit atque corrupti, quos dolores et
-                quas molestias
-                exceptur.
+                As a freelance web developer, I've collaborated with Club Mediterranee
+                 Martil to create and maintain their website. My role involves designing 
+                 and developing user-friendly interfaces to promote the resort's services 
+                 and amenities, ensuring an engaging online experience for visitors
               </p>
 
             </li>
@@ -633,68 +395,7 @@
 
         </section>
 
-        <section class="skill">
-
-          <h3 class="h3 skills-title">My skills</h3>
-
-          <ul class="skills-list content-card">
-
-            <li class="skills-item">
-
-              <div class="title-wrapper">
-                <h5 class="h5">Web design</h5>
-                <data value="80">80%</data>
-              </div>
-
-              <div class="skill-progress-bg">
-                <div class="skill-progress-fill" style="width: 80%;"></div>
-              </div>
-
-            </li>
-
-            <li class="skills-item">
-
-              <div class="title-wrapper">
-                <h5 class="h5">Graphic design</h5>
-                <data value="70">70%</data>
-              </div>
-
-              <div class="skill-progress-bg">
-                <div class="skill-progress-fill" style="width: 70%;"></div>
-              </div>
-
-            </li>
-
-            <li class="skills-item">
-
-              <div class="title-wrapper">
-                <h5 class="h5">Branding</h5>
-                <data value="90">90%</data>
-              </div>
-
-              <div class="skill-progress-bg">
-                <div class="skill-progress-fill" style="width: 90%;"></div>
-              </div>
-
-            </li>
-
-            <li class="skills-item">
-
-              <div class="title-wrapper">
-                <h5 class="h5">WordPress</h5>
-                <data value="50">50%</data>
-              </div>
-
-              <div class="skill-progress-bg">
-                <div class="skill-progress-fill" style="width: 50%;"></div>
-              </div>
-
-            </li>
-
-          </ul>
-
-        </section>
-
+      
       </article>
 
 
@@ -761,35 +462,46 @@
                 <div class="container-image">
                   <img src="assets/images/icons8-close-384.png" alt="" onclick="removeClassDeatils()">
                 </div>
+                <div class="containerTitle">
+                  <h3 class="myTitles">Waiting Coder</h3>
+                </div>
                 <div class="container-all">
                   <div class="container-desc">
-                    <p class="desc">hello word so jhwo to do this on this projet ok and the last of this description 
-                      ok i try to do a lot of things about this field ok sand enjoy with you prtaction 
-                      hello word so jhwo to do 
+                    <p class="desc">I made a platform where students can find projects to work on, 
+                      learn new languages, and track their progress. There's also a part for teachers 
+                      to manage students easily. It shows I'm good at making websites and organizing
+                      information for learning.
                     </p>
                     <br/>
                     <p class="desc">
-                      this on this projet ok and the last of this description 
-                      ok i try to do a lot of things about this field ok sand enjoy with you prtaction
-                      ok i try to do a lot of things about this field ok sand enjoy with you prtaction
-                      ok i try to do a lot of things about this field ok sand enjoy with you prtaction
+                      To access the student platform, use the following credentials:<br/>
+                      Link: click <a href="http://35.180.127.147:3000/" style="display: inline; color: rgb(73, 73, 197); text-decoration: underline;">here</a><br/>
+                      Username: <span class="myspan" style="display: inline; color: rgb(73, 73, 197);">student</span><br/>
+                      Password: <span class="myspan" style="display: inline; color: rgb(73, 73, 197);">student</span><br/>
+                      To access the admin platform, use the following credentials:
+                      Link: click <a href="http://35.180.127.147:3000/Admin" style="display: inline; color: rgb(73, 73, 197); text-decoration: underline;">here</a><br/>
+                      Username: <span class="myspan" style="display: inline; color: rgb(73, 73, 197);">admin</span><br/>
+                      Password: <span class="myspan" style="display: inline; color: rgb(73, 73, 197);">admin</span><br/>
                     </p>
-                    
                   </div>
-                  <div class="container-languages">
-                    <div class="language"><p>HTML</p></div>
-                    <div class="language"><p>CSS</p></div>
-                    <div class="language"><p>CSS</p></div>
-                    <div class="language"><p>CSS</p></div>
-                    <div class="language"><p>CSS</p></div>
-                    <div class="language"><p>CSS</p></div>
+                  <div class="container-badges">
+                    <!-- <img class="myImg" src="assets/images/badgeHtml.png" alt=""> -->
+                    <img class="myImg" src="assets/images/badgeCss.png" alt="">
+                    <img class="myImg" src="assets/images/badgeJs.png" alt="">
+                    <img class="myImg" src="assets/images/badgeNodeJs.png" alt="">
+                    <img class="myImg" src="assets/images/badgeSass.png" alt="">
+                    <!-- <img class="myImg" src="assets/images/badgePhp.png" style="width: 50px; height: 35px;" alt=""> -->
+                    <img class="myImg" src="assets/images/badgeMysgl.png" alt="">
+                    <img class="myImg" src="assets/images/sql.png" alt="">
+                    <img class="myImg" src="assets/images/badgeExpressJs.png" alt="">
+                    <img class="myImg" src="assets/images/badgeReact.png" style="height: 50px;" alt="">
                   </div>
                   <div class="container-links">
                     <div class="link-website">
-                      <p class="link">Link-Web Site: <a class="span" href="http://35.180.127.147:80/">http://http://35.180.127.147:80/</a></p>
+                      <a href="https://github.com/abdelkarimhajji/waiting_coder" target="_blank" rel="noopener noreferrer"><button>Github <img class="myImg" src="assets/images/iconeLink.svg"></button></a>
                     </div>
                     <div class="link-website">
-                      <p class="link">Link-Web Github: <span class="span">http://127.0.0.1:5500/index.html</span></p>
+                      <a href="http://35.180.127.147:3000/" target="_blank" rel="noopener noreferrer"><button>Web Site <img class="myImg" src="assets/images/iconeLink.svg"></button></a>
                     </div>
                   </div>
                 </div>
@@ -804,7 +516,7 @@
                     <ion-icon name="eye-outline"></ion-icon>
                   </div>
 
-                  <img src="./assets/images/ecomerce.jpg" alt="orizon" loading="lazy">
+                  <img class="myImg" src="./assets/images/ecomerce.jpg" alt="orizon" loading="lazy">
                 </figure>
 
                 <h3 class="project-title">Ecomerce</h3>
@@ -814,51 +526,38 @@
               </span>
               <div class="containerDetails">
                 <div class="container-image">
-                  <img src="assets/images/icons8-close-384.png" alt="" onclick="removeClassDeatils()">
+                  <img class="myImg" src="assets/images/icons8-close-384.png" alt="" onclick="removeClassDeatils()">
                 </div>
                 <div class="containerTitle">
-                  <h3>Ecomerce</h3>
+                  <h3 class="myTitles">Ecomerce</h3>
                 </div>
                 <div class="container-all">
                   <div class="container-desc">
-                    <p class="desc">hello word so jhwo to do this on this projet ok and the last of this description 
-                      ok i try to do a lot of things about this field ok sand enjoy with you prtaction 
-                      hello word so jhwo to do 
+                    <p class="desc">
+                      I developed an e-commerce platform using PHP, HTML, CSS, and jQuery, providing
+                       a seamless shopping experience for users. Leveraging PHP for server-side 
+                       functionality and integrating HTML, CSS, and jQuery for dynamic front-end 
+                       elements, the platform offers a user-friendly interface and efficient 
+                       transaction processing. With its robust features and responsive design, 
+                       this project demonstrates my proficiency in web development and e-commerce 
+                       solutions.
                     </p>
                     <br/>
                     <p class="desc">
-                      this on this projet ok and the last of this description 
-                      ok i try to do a lot of things about this field ok sand enjoy with you prtaction
-                      ok i try to do a lot of things about this field ok sand enjoy with you prtaction
-                      ok i try to do a lot of things about this field ok sand enjoy with you prtaction
+                      
                     </p>
                   </div>
-                  <!-- <div class="container-languages">
-                    <div><p>HTML</p></div>
-                    <div><p>CSS</p></div>
-                    <div><p>Node Js</p></div>
-                    <div><p>Express</p></div>
-                    <div><p>SASS</p></div>
-                    <div><p>AJAX</p></div>
-                  </div> -->
                   <div class="container-badges">
-                    <img src="assets/images/badgeHtml.png" alt="">
-                    <img src="assets/images/badgeCss.png" alt="">
-                    <img src="assets/images/badgeJs.png" alt="">
-                    <img src="assets/images/badgeNodeJs.png" alt="">
-                    <img src="assets/images/badgeSass.png" alt="">
-                    <img src="assets/images/badgePhp.png" style="width: 50px; height: 35px;" alt="">
-                    <img src="assets/images/badgeMysgl.png" alt="">
-                    <img src="assets/images/sql.png" alt="">
-                    <img src="assets/images/badgeExpressJs.png" alt="">
-                    <img src="assets/images/badgeReact.png" style="height: 50px;" alt="">
+                    <img class="myImg" src="assets/images/badgeHtml.png"  alt="">
+                    <img class="myImg" src="assets/images/badgeCss.png" alt="">
+                    <img class="myImg" src="assets/images/badgeJs.png" alt="">
+                    <img class="myImg" src="assets/images/badgePhp.png" style="width: 50px; height: 35px;" alt="">
+                    <img class="myImg" src="assets/images/badgeMysgl.png" alt="">
+                    <img class="myImg" src="assets/images/sql.png" alt="">
                   </div>
                   <div class="container-links">
                     <div class="link-website">
-                      <p>Link-Web Site: <span class="span">http://127.0.0.1:5500/index.html</span></p>
-                    </div>
-                    <div class="link-website">
-                      <p>Link-Web Github: <span class="span">http://127.0.0.1:5500/index.html</span></p>
+                      <a href="https://github.com/abdelkarimhajji/prject_ecomerce" target="_blank" rel="noopener noreferrer"><button>Github <img class="myImg" src="assets/images/iconeLink.svg"></button></a>
                     </div>
                   </div>
                 </div>
@@ -873,7 +572,7 @@
                     <ion-icon name="eye-outline"></ion-icon>
                   </div>
 
-                  <img src="./assets/images/iptv.jpg" alt="fundo" loading="lazy">
+                  <img class="myImg" src="./assets/images/iptv.jpg" alt="fundo" loading="lazy">
                 </figure>
 
                 <h3 class="project-title">Iptv</h3>
@@ -881,6 +580,40 @@
                 <p class="project-category">Front-end</p>
 
               </span>
+              <div class="containerDetails">
+                <div class="container-image">
+                  <img class="myImg" src="assets/images/icons8-close-384.png" alt="" onclick="removeClassDeatils()">
+                </div>
+                <div class="containerTitle">
+                  <h3 class="myTitles">Iptv</h3>
+                </div>
+                <div class="container-all">
+                  <div class="container-desc">
+                    <p class="desc">
+                        I created a personalized IPTV website using HTML, CSS, and JavaScript, offering 
+                        a platform for selling IPTV services. By leveraging HTML for structure, CSS for styling,
+                        and JavaScript for interactivity, the website provides a seamless browsing experience 
+                        for users interested in IPTV subscriptions. With a focus on intuitive design and 
+                        user engagement, this project showcases my skills in web development and 
+                        e-commerce solutions.
+                    </p>
+                    <br/>
+                  </div>
+                  <div class="container-badges">
+                    <img class="myImg" src="assets/images/badgeHtml.png" alt="">
+                    <img class="myImg" src="assets/images/badgeCss.png" alt="">
+                    <img class="myImg" src="assets/images/badgeJs.png" alt="">
+                  </div>
+                  <div class="container-links">
+                    <div class="link-website">
+                      <a href="https://github.com/abdelkarimhajji/newiptvs" target="_blank" rel="noopener noreferrer"><button>Github <img class="myImg" src="assets/images/iconeLink.svg"></button></a>
+                    </div>
+                    <div class="link-website">
+                      <a href="http://35.180.127.147:443/" target="_blank" rel="noopener noreferrer"><button>Web Site <img class="myImg" src="assets/images/iconeLink.svg"></button></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </li>
 
             <li class="project-item  active" data-filter-item data-category="applications">
@@ -891,7 +624,7 @@
                     <ion-icon name="eye-outline"></ion-icon>
                   </div>
 
-                  <img src="./assets/images/cafeNora.jpg" alt="brawlhalla" loading="lazy">
+                  <img class="myImg" src="./assets/images/cafeNora.jpg" alt="brawlhalla" loading="lazy">
                 </figure>
 
                 <h3 class="project-title">Cafe Nora</h3>
@@ -899,6 +632,39 @@
                 <p class="project-category">Front-end</p>
 
               </span>
+              <div class="containerDetails">
+                <div class="container-image">
+                  <img class="myImg" src="assets/images/icons8-close-384.png" alt="" onclick="removeClassDeatils()">
+                </div>
+                <div class="containerTitle">
+                  <h3 class="myTitles">Cafe Nora</h3>
+                </div>
+                <div class="container-all">
+                  <div class="container-desc">
+                    <p class="desc">Presenting a real-life project tailored for a customer, 
+                      Cafe Nora's website showcases my ability to translate client needs into 
+                      a dynamic online presence. Crafted with HTML, CSS, Bootstrap, and JavaScript,
+                       this project underscores my dedication to delivering effective digital solutions 
+                       for businesses 
+                    </p>
+                    <br/>
+                  </div>
+                  <div class="container-badges">
+                    <img class="myImg" src="assets/images/badgeHtml.png" alt="">
+                    <img class="myImg" src="assets/images/badgeCss.png" alt="">
+                    <img class="myImg" src="assets/images/badgeJs.png" alt="">
+                    <img class="myImg" src="assets/images/badgeBoostrp.png" alt="">
+                  </div>
+                  <div class="container-links">
+                    <div class="link-website">
+                      <a href="https://github.com/abdelkarimhajji/poject_cafee_nora" target="_blank" rel="noopener noreferrer"><button>Github <img class="myImg" src="assets/images/iconeLink.svg"></button></a>
+                    </div>
+                    <div class="link-website">
+                      <a href="http://35.180.127.147:8083/" target="_blank" rel="noopener noreferrer"><button>Web Site <img class="myImg" src="assets/images/iconeLink.svg"></button></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </li>
 
             <li class="project-item  active" data-filter-item data-category="web design">
@@ -909,7 +675,7 @@
                     <ion-icon name="eye-outline"></ion-icon>
                   </div>
 
-                  <img src="./assets/images/quizGame.jpg" alt="dsm." loading="lazy">
+                  <img class="myImg" src="./assets/images/quizGame.jpg" alt="dsm." loading="lazy">
                 </figure>
 
                 <h3 class="project-title">Quiz Game</h3>
@@ -917,6 +683,39 @@
                 <p class="project-category">Full Stack</p>
 
               </span>
+              <div class="containerDetails">
+                <div class="container-image">
+                  <img class="myImg" src="assets/images/icons8-close-384.png" alt="" onclick="removeClassDeatils()">
+                </div>
+                <div class="containerTitle">
+                  <h3 class="myTitles">Quiz Game</h3>
+                </div>
+                <div class="container-all">
+                  <div class="container-desc">
+                    <p class="desc">Celebrate your knowledge of cars, actors,
+                       and history with an interactive quiz game meticulously 
+                       crafted using PHP, HTML, CSS, and JavaScript. Dive into
+                        the excitement of guessing and learning, showcasing my
+                         dedication to creating dynamic and immersive web 
+                         experiences 
+                    </p>
+                    <br/>
+                  </div>
+                  <div class="container-badges">
+                    <img class="myImg" src="assets/images/badgeHtml.png" alt="">
+                    <img class="myImg" src="assets/images/badgeCss.png" alt="">
+                    <img class="myImg" src="assets/images/badgeJs.png" alt="">
+                    <img class="myImg" src="assets/images/badgePhp.png" style="width: 50px; height: 35px;" alt="">
+                    <img class="myImg" src="assets/images/badgeMysgl.png" alt="">
+                    <img class="myImg" src="assets/images/sql.png" alt="">
+                  </div>
+                  <div class="container-links">
+                    <div class="link-website">
+                      <a href="https://github.com/abdelkarimhajji/quiz-game" target="_blank" rel="noopener noreferrer"><button>Github <img class="myImg" src="assets/images/iconeLink.svg"></button></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </li>
 
             <li class="project-item  active" data-filter-item data-category="web design">
@@ -927,7 +726,7 @@
                     <ion-icon name="eye-outline"></ion-icon>
                   </div>
 
-                  <img src="./assets/images/7ala9.jpg" alt="metaspark" loading="lazy">
+                  <img class="myImg" src="./assets/images/7ala9.jpg" alt="metaspark" loading="lazy">
                 </figure>
 
                 <h3 class="project-title">7ala9</h3>
@@ -935,6 +734,38 @@
                 <p class="project-category">Front-end</p>
 
               </span>
+              <div class="containerDetails">
+                <div class="container-image">
+                  <img class="myImg" src="assets/images/icons8-close-384.png" alt="" onclick="removeClassDeatils()">
+                </div>
+                <div class="containerTitle">
+                  <h3 class="myTitles">7ala9</h3>
+                </div>
+                <div class="container-all">
+                  <div class="container-desc">
+                    <p class="desc">I'm excited to introduce the future of barber services
+                       with my upcoming mobile app. While it's still in development, 
+                       take a peek at the sleek landing page I've created. It's designed 
+                       to captivate investors and showcase the convenience and style of what's 
+                       to come. Keep an eye out for updates!
+                    </p>
+                    <br/>
+                  </div>
+                  <div class="container-badges">
+                    <img class="myImg" src="assets/images/badgeHtml.png" alt="">
+                    <img class="myImg" src="assets/images/badgeCss.png" alt="">
+                    <img class="myImg" src="assets/images/badgeJs.png" alt="">
+                  </div>
+                  <div class="container-links">
+                    <div class="link-website">
+                      <a href="https://github.com/abdelkarimhajji/landing-page-barber-7ala9" target="_blank" rel="noopener noreferrer"><button>Github <img class="myImg" src="assets/images/iconeLink.svg"></button></a>
+                    </div>
+                    <div class="link-website">
+                      <a href="http://35.180.127.147:8085/" target="_blank" rel="noopener noreferrer"><button>Web Site <img class="myImg" src="assets/images/iconeLink.svg"></button></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </li>
 
             <li class="project-item  active" data-filter-item data-category="web development">
@@ -945,7 +776,7 @@
                     <ion-icon name="eye-outline"></ion-icon>
                   </div>
 
-                  <img src="./assets/images/fitness.jpg" alt="summary" loading="lazy">
+                  <img class="myImg" src="./assets/images/fitness.jpg" alt="summary" loading="lazy">
                 </figure>
 
                 <h3 class="project-title">Gym</h3>
@@ -953,6 +784,38 @@
                 <p class="project-category">Front-end</p>
 
               </span>
+              <div class="containerDetails">
+                <div class="container-image">
+                  <img class="myImg" src="assets/images/icons8-close-384.png" alt="" onclick="removeClassDeatils()">
+                </div>
+                <div class="containerTitle">
+                  <h3 class="myTitles">Gym</h3>
+                </div>
+                <div class="container-all">
+                  <div class="container-desc">
+                    <p class="desc">I developed a sleek website for a local gym club utilizing 
+                      HTML, CSS, and JavaScript. The platform offers seamless access to club 
+                      schedules, facilitating members' workout planning. Leveraging responsive design, 
+                      it ensures optimal viewing on various devices.
+                    </p>
+                    <br/>
+                  </div>
+                  <div class="container-badges">
+                    <img class="myImg" src="assets/images/badgeHtml.png" alt="">
+                    <img class="myImg" src="assets/images/badgeCss.png" alt="">
+                    <img class="myImg" src="assets/images/badgeJs.png" alt="">
+                    <img class="myImg" src="assets/images/badgeBoostrp.png" alt="">
+                  </div>
+                  <div class="container-links">
+                    <div class="link-website">
+                      <a href="https://github.com/abdelkarimhajji/gym_webSite" target="_blank" rel="noopener noreferrer"><button>Github <img class="myImg" src="assets/images/iconeLink.svg"></button></a>
+                    </div>
+                    <div class="link-website">
+                      <a href="http://35.180.127.147:8084/" target="_blank" rel="noopener noreferrer"><button>Web Site <img class="myImg" src="assets/images/iconeLink.svg"></button></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </li>
 
             <li class="project-item  active" data-filter-item data-category="applications">
@@ -963,7 +826,7 @@
                     <ion-icon name="eye-outline"></ion-icon>
                   </div>
 
-                  <img src="./assets/images/barber.jpg" alt="task manager" loading="lazy">
+                  <img class="myImg" src="./assets/images/barber.jpg" alt="task manager" loading="lazy">
                 </figure>
 
                 <h3 class="project-title">Barber</h3>
@@ -971,6 +834,41 @@
                 <p class="project-category">Front-end</p>
 
               </span>
+
+              <div class="containerDetails">
+                <div class="container-image">
+                  <img class="myImg" src="assets/images/icons8-close-384.png" alt="" onclick="removeClassDeatils()">
+                </div>
+                <div class="containerTitle">
+                  <h3 class="myTitles">Barber</h3>
+                </div>
+                <div class="container-all">
+                  <div class="container-desc">
+                    <p class="desc">I developed a website for a barber utilizing 
+                      HTML, CSS, JavaScript, and Bootstrap. The website presents 
+                      the barber's services, various haircut styles, and the 
+                      atmosphere of the barbershop. While currently functioning 
+                      as a digital portfolio, future plans include incorporating 
+                      appointment scheduling for added convenience.
+                    </p>
+                    <br/>
+                  </div>
+                  <div class="container-badges">
+                    <img class="myImg" src="assets/images/badgeHtml.png" alt="">
+                    <img class="myImg" src="assets/images/badgeCss.png" alt="">
+                    <img class="myImg" src="assets/images/badgeJs.png" alt="">
+                    <img class="myImg" src="assets/images/badgeBoostrp.png" alt="">
+                  </div>
+                  <div class="container-links">
+                    <div class="link-website">
+                      <a href="https://github.com/abdelkarimhajji/barber" target="_blank" rel="noopener noreferrer"><button>Github <img class="myImg" src="assets/images/iconeLink.svg"></button></a>
+                    </div>
+                    <div class="link-website">
+                      <a href="http://35.180.127.147:80/" target="_blank" rel="noopener noreferrer"><button>Web Site <img class="myImg" src="assets/images/iconeLink.svg"></button></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </li>
 
             <a  href="https://github.com/abdelkarimhajji"  target="_blank" class="project-item  active" data-filter-item data-category="applications">
@@ -981,33 +879,15 @@
                     <ion-icon name="eye-outline"></ion-icon>
                   </div>
 
-                  <img src="./assets/images/github.png" alt="task manager" loading="lazy">
+                  <img class="myImg" src="./assets/images/github.png" alt="task manager" loading="lazy">
                 </figure>
 
-                <h3 class="project-title">Barber</h3>
+                <h3 class="project-title">Github</h3>
 
-                <p class="project-category">Front-end</p>
+                <p class="project-category">Link</p>
 
               </span>
             </a>
-
-            <!-- <li class="project-item  active" data-filter-item data-category="web development">
-              <a href="#">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/project-9.png" alt="arrival" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Arrival</h3>
-
-                <p class="project-category">Web development</p>
-
-              </a>
-            </li> -->
 
           </ul>
           
